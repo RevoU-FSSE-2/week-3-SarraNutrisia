@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: Caveat, "Cambria", cambria;
+    font-family: Caveat, "Open Sans", Cambria;
     margin: 0;
     background-color: #F5EFE7;
   }
@@ -246,8 +246,10 @@ figure {
 }
   
 h2 {
-    font-weight: 700;
+    font-weight: 300%;
     text-align: center;
+    text-decoration: overline;
+    font-size: 40px;
   }
 
 #section-video .flex-container {
@@ -305,20 +307,23 @@ fieldset {
 
 .develop{
   padding: 10px;
-  font-size: larger;
+  font-size: 25px;
   color: #333333;
+  font-weight: bold;
 }
 
 .symbol{
   padding: 10px;
-  font-size: larger;
+  font-size: 25px;
   color: #333333;
+  font-weight: bold;
 }
 
 .school{
   padding: 10px;
-  font-size: larger;
+  font-size: 25px;
   color: #333333;
+  font-weight: bold;
 }
 
 #KATEDA-technic h2{
@@ -328,26 +333,30 @@ fieldset {
 
 .punch{
   padding: 10px;
-  font-size: larger;
+  font-size: 25px;
   color: #333333;
+  font-weight: bold;
 }
 
 .kick{
   padding: 10px;
-  font-size: larger;
+  font-size: 25px;
   color: #333333;
+  font-weight: bold;
 }
 
 .slam{
   padding: 10px;
-  font-size: larger;
+  font-size: 25px;
   color: #333333;
+  font-weight: bold;
 }
 
 .withstand{
   padding: 10px;
-  font-size: larger;
+  font-size: 25px;
   color: #333333;
+  font-weight: bold;
 }
  
 input[type="text"],
@@ -388,6 +397,17 @@ button[type="submit"] {
     font-weight: bold;
     cursor: pointer;
   }
+
+.kateda-potrait-item {
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.kateda-potrait-item:hover {
+  filter: none;
+  transition-property: filter;
+  transition-duration: 1s;
+}
 
 /* for tablet and desktop */
 @media only screen and (min-width: 768px) {
