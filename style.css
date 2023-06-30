@@ -193,10 +193,21 @@ nav .circle-red {
   cursor: pointer;
 }
 
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;
     width: 300%;
+  }
+
+  50% {
+    margin-left: 25%;
+    width: 150%;
+    font-size: 2em;
   }
 
   to {
@@ -338,7 +349,7 @@ fieldset {
   font-size: larger;
   color: #333333;
 }
-  
+ 
 input[type="text"],
 input[type="email"],
 textarea {

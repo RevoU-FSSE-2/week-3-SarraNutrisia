@@ -98,7 +98,14 @@
                     On 5 March 1981, "London KATEDA School of Defense" became the center of all KATEDA schools</li>
             </ul>
             <figure>
-                <img src="./images/Master Takashi.jpg" alt="Potrait of Grand Master Takashi"/>
+              <picture>
+                <source
+                media="(max-width: 480px)"
+                srcset="./images/Master Takashi-mobile.png"
+              />
+                <img src="./images/Master-Takashi.webp" 
+                alt="Potrait of Grand Master Takashi"/>
+              </picture>
                 <figcaption>This is Our <em>Grand Master Takashi</em></figcaption>
             </figure>
             </div>
@@ -117,8 +124,15 @@
                 <li class="withstand">
                     Withstand blunt force attacks from any direction</li>
             </ul>
-            <figure>
+            </div>
+             <figure>
+              <picture>
+              <source
+                media="(max-width: 480px)"
+                srcset="./images/man-withstand-blunt-attack-mobile.png"
+              />
                 <img src="./images/man withstand blunt attack.webp" alt="A student of KATEDA School who withstand iron stick attack on his stomach from his teacher"/>
+              </picture>
                 <figcaption>Student who <em>Practice to Withstand the Blunt Attack</em></figcaption>
             </figure>
             </div>
@@ -146,7 +160,7 @@
                 <legend>Fill in your Bio here!</legend>
                 <div>
                   <label for="fullName">Full Name:</label>
-                  <input id="fullName" type="text" required />
+                  <input id="fullName" type="text" required autocomplete="given-name">
                 </div>
     
                 <div>
