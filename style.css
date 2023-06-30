@@ -30,6 +30,10 @@ body {
     color: #F5EFE7;
   }
 
+.dark-mode li {
+    color: #F5EFE7;
+}
+
 section {
     margin: 0 16px;
   }
