@@ -38,7 +38,7 @@ The HTML Structure for each page is as follows:
 * Footer
 	* Copyright
   
-Layout: https://fabulous-hotteok-460395.netlify.app/
+Layout: https://astonishing-starlight-88e699.netlify.app/
   
 ***
 ## 2. CSS File
